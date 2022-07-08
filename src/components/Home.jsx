@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className='text-white'>
         <div className='max-w-[800px] mt-[-96px] mx-auto w-full   h-screen text-center  flex flex-col justify-center'>
-            <p className=' text-[#e67e22] text-7xl font-bold p-2'>
+            <p className=' text-white text-5xl font-bold p-2'>
                 İnternete özel fiyatlar
             </p>
             <h1 className='md:text-7xl sm:text-6xl bg-clip-text text-transparent   bg-gradient-to-r from-pink-500 to-violet-500 text-4xl font-bold md:py-6'>
@@ -16,7 +16,7 @@ const Home = () => {
                 <p className='md:text-5xl sm:text-4xl text-xl font-bold py-4'> SİZE ÖZEL </p>
                 <Typed
                 className='md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2'
-                strings={['NAILART','SAC','BOYA']}
+                strings={['NAILART','MAKEUP','OMBRE']}
                 typeSpeed   = {100}
                 backSpeed   = {140}
                 loop        />
